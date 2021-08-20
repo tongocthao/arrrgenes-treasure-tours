@@ -40,16 +40,19 @@ body {
 }
 
 .nav ul {
-  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav a {
   color: #fff;
-  padding: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
   border-radius: 1em;
   text-decoration: none;
 }
